@@ -1,15 +1,26 @@
+<!--
+ * @Author: 赵志
+ * @Date: 2023-04-14 13:53:19
+ * @LastEditTime: 2023-04-14 15:47:19
+ * @LastEditors: 赵志
+ * @Description: 
+-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <SankeyChart2 />
+    <!-- <SankeyChart /> -->
+  </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import SankeyChart from './components/SankeyChart.vue'
+import SankeyChart2 from './components/SankeyChart2.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // SankeyChart,
+    SankeyChart2
   }
 }
 </script>
